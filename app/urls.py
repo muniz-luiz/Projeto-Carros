@@ -29,4 +29,4 @@ urlpatterns = [
     path('cars/', cars_view, name='cars_list'),
     
         
-] + static(settings.MEDIA_URL, documents_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
